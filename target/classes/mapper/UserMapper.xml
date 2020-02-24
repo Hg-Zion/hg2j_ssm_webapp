@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hg.mapper.UserMapper">
+
+    <!-- 根据用户名返回用户对象：用户登录的方法 -->
+    <select id="login" parameterType="com.hg.pojo.User" resultType="User">
+        select * from user where username = #{username}
+    </select>
+
+</mapper>

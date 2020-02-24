@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hg.mapper.CustomerMapper">
+    <!--传入一个客户对象-->
+    <insert id="create" parameterType="Customer">
+        insert into customer values (null, #{customer.name}, #{customer.address}, #{customer.phone});
+    </insert>
+
+    <!--根据id删除客户信息-->
+    <delete id="delete" parameterType="int">
+        delete from customer where id = #{id};
+    </delete>
+
+    <!--根据id查找客户信息并返回-->
+    <select id="findById" parameterType="int" resultType="Customer">
+        select * from customer where id = #{id};
+    </select>
+
+    <!--根据传入客户更新数据库-->
+    <update id="update" parameterType="Customer">
+        update customer
+        set name = #{name},
+            address = #{address},
+            phone = #{phone}
+        where id = #{id};
+    </update>
+
+    <!-- resultMap用于实现映射结果集 -->
+    <!--<resultMap id="BaseResultMap" type="Customer">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR"/>
+        <result column="address" property="address" jdbcType="VARCHAR"/>
+    </resultMap>-->
+    <!--返回所有客户-->
+    <select id="findByPage" parameterType="Customer" resultType="Customer">
+        SELECT * FROM customer
+        <if test="name != null">
+            AND name LIKE CONCAT('%', #{name}, '%')
+        </if>
+        <if test="phone != null">
+            AND phone LIKE CONCAT('%', #{phone}, '%')
+        </if>
+    </select>
+
+    <!--返回List容器-->
+    <select id="findAll" parameterType="Customer" resultType = "Customer">
+        select * from customer;
+    </select>
+</mapper>
