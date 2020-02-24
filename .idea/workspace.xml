@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5526fcf6-c211-42a1-afd3-d65c35624810" name="默认更改列表" comment="" />
+    <list default="true" id="5526fcf6-c211-42a1-afd3-d65c35624810" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +44,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Zion\IdeaProjects\hg2j_ssm_webapp_day1_05\.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -79,7 +88,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.22774567" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -232,12 +241,24 @@
       <option name="presentableId" value="Default" />
       <updated>1582443297769</updated>
       <workItem from="1582443299108" duration="5664000" />
-      <workItem from="1582515185796" duration="9098000" />
+      <workItem from="1582515185796" duration="9661000" />
     </task>
+    <task id="LOCAL-00001" summary="将本地写好的项目v1.0提交到Github">
+      <created>1582525325822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582525325822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="将本地写好的项目v1.0提交到Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="将本地写好的项目v1.0提交到Github" />
   </component>
   <component name="WindowStateProjectService">
     <state x="53" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582446485081">
@@ -256,18 +277,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="7" key="#项目结构/0.0.1280.689@0.0.1280.689" timestamp="1582443454314" />
-    <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1582525134058">
+    <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1582525451859">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="147" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1582525134058" />
-    <state x="421" y="89" key="FileChooserDialogImpl" timestamp="1582525094512">
+    <state x="147" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1582525451859" />
+    <state x="421" y="89" key="FileChooserDialogImpl" timestamp="1582525678881">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="89" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582525094512" />
+    <state x="421" y="89" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582525678881" />
     <state x="469" y="259" width="366" height="171" key="Github.CreateGistDialog" timestamp="1582524930437">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="469" y="259" width="366" height="171" key="Github.CreateGistDialog/0.0.1280.689@0.0.1280.689" timestamp="1582524930437" />
+    <state x="462" y="241" width="356" height="264" key="Github.ShareDialog" timestamp="1582525536099">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="462" y="241" width="356" height="264" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1582525536099" />
     <state width="845" height="159" key="GridCell.Tab.0.bottom" timestamp="1582525170665">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -320,9 +345,13 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="171" y="3" key="Maven.ArtifactSearchDialog/0.0.1280.689@0.0.1280.689" timestamp="1582520397369" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1582521548359">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1582525496331">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1582521548359" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1582525496331" />
+    <state x="471" y="139" key="svn.repositoryBrowser" timestamp="1582525409856">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="471" y="139" key="svn.repositoryBrowser/0.0.1280.689@0.0.1280.689" timestamp="1582525409856" />
   </component>
 </project>
